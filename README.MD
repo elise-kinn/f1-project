@@ -22,7 +22,7 @@ Formula 1 fans, casual or passionate, who are comfortable using modern web inter
 ## Technologies Used
 
 ### Front-End
-- React
+- React / SCSS
 - Figma (Responsive mockups)  
 - Adobe InDesign / Procreate (Custom logos and graphic elements)
 
@@ -88,7 +88,7 @@ Fans de Formule 1, réguliers ou occasionnels, à l'aise avec les interfaces web
 
 ## Technologies utilisées
 ### Front-End 
-- React
+- React / SCSS
 - Figma (Maquettage Responsive)
 - Adobe inDesign / Procreate (Logos et Designs personnels)
 
