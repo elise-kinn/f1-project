@@ -22,13 +22,14 @@ Formula 1 fans, casual or passionate, who are comfortable using modern web inter
 ## Technologies Used
 
 ### Front-End
-- HTML5 / CSS3  
-- JavaScript  
+- React
 - Figma (Responsive mockups)  
 - Adobe InDesign / Procreate (Custom logos and graphic elements)
 
 ### Back-End
-- PHP 8  
+- Node.js / Express
+
+### Database
 - MySQL
 
 ## Project Structure
@@ -87,13 +88,14 @@ Fans de Formule 1, réguliers ou occasionnels, à l'aise avec les interfaces web
 
 ## Technologies utilisées
 ### Front-End 
-- HTML5/CSS3
-- JavaScript
+- React
 - Figma (Maquettage Responsive)
 - Adobe inDesign / Procreate (Logos et Designs personnels)
 
 ### Back-End 
-- PHP 8
+- Node.js / Express
+
+# Base de données
 - MySQL
 
 ## Architecture du projet
