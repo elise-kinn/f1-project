@@ -1,16 +1,9 @@
-# images 
-front-end/img/circuits/models
-front-end/img/circuits/vectors
+**node_modules
+front-end/node_modules
 
-front-end/img/logos/models
-front-end/img/logos/vectors
+**/model/
+**/vectors/
 
-front-end/img/teams/models
-front-end/img/teams/vectors
-
-# autre
-node_modules
-/annexes
 .env
 
 # Logs
