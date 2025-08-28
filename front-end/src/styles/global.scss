@@ -1,7 +1,11 @@
 @use './variables.scss' as *;
 
-@use './accBtns.scss';
+@use './components/accBtns.scss';
+@use './components/translateBtn.scss';
+
 @use './header.scss';
+@use './footer.scss';
+
 
 *{
     margin: 0;
@@ -15,7 +19,7 @@ h1, h2{
    font-family: $playfair;
 }
 
-header>div,  footer{
+#header-up>div, #header-down>div, footer>div{
     max-width: 1440px;
     margin: auto;
     padding: 0 15px;

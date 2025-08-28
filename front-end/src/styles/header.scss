@@ -5,17 +5,51 @@ header{
         background-color: var.$bg-header-up;
         padding : 6px 15px;
 
-        div{
+        >div{
             display: flex;
             align-items: center;
+            justify-content: space-between;
+
+            >div{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                svg{
+                    font-size: 22px;
+                    color: var.$black
+                }
+            }
         }
     }
 
     #header-down{
         background-color: var.$red;
 
-        img{
-            width:230px
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 6px 15px;
+
+            img{
+                width:230px
+            }
+    
+            nav ul{
+                display: flex;
+                align-items: center;
+                gap: 34px;
+
+                a{
+                    color : var.$white;
+
+                    &:hover{
+                        color : var.$black;
+                    }
+                }
+            }
+
         }
     }
 }
