@@ -1,11 +1,11 @@
 {
-    "register": "S'inscrire",
-    "signin": "Se connecter",
-    "login": "Connexion",
+    "register": "Inscription",
+    "signin": "Connexion",
+    "login": "Se connecter",
     
-    "prediction": "Prédiction",
+    "prediction": "Prédictions",
     "results": "Résultats",
-    "schedule": "Planning",
+    "schedule": "Programme",
     "calendar": "Calendrier",
     "grid": "Grille",
     "home": "Accueil",
@@ -13,16 +13,29 @@
     "legalNotice": "Mentions légales",
     "termUse": "Conditions d'utilisation",
     "privaciyPol": "Politique de confidentialité",
-    "cookie": "Cookies",
+    "cookie": "Gestion des cookies",
     "footer1": "© 2025 Formula One Season Tracker",
     "footer2": "Développé dans le cadre d'un projet de formation DWWM par Elise LIAUTAUD",
 
+    "titleSelection": "Sélectionnez votre civilité",
+    "titleF": "Mme.",
+    "titleM": "M.",
+    "titleA": "Autre",
+    "username": "Nom d'utilisateur",
+    "pwconfirm": "Confirmation du mot de passe",
     "password": "Mot de passe",
-    "noAcc": "Vous n'avez pas encore de compte ?",
-    "registerHere": "Inscrivez-vous ici !",
-    "noSignin": "Accéder au site sans s'inscrire",
-    "forgottenPassword": "Mot de passe oublié ?",
 
+    "rgpd1": "J'atteste avoir lu et accepté les",
+    "rgpd2": "Conditions générales d'utilisation",
+
+    "noAcc": "Pas encore de compte ?",
+    "registerHere": "Inscrivez-vous ici !",
+
+    "alreadyAcc": "Vous avez déjà un compte ?",
+    "signinHere": "Connectez-vous ici !",
+
+    "noSignin": "Accéder sans inscription",
+    "forgottenPassword": "Mot de passe oublié ?",
 
     "hello": "Bonjour",
 

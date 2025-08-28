@@ -14,7 +14,7 @@ const Footer = () => {
                             <ul>
                                 <li><Link to="">{t('legalNotice')}</Link></li>
                                 <li><Link to="">{t('termUse')}</Link></li>
-                                <li><Link to="">{t('privaciyPol')}</Link></li>
+                                <li><Link to="">{t('privacyPol')}</Link></li>
                                 <li><Link to="">{t('cookie')}</Link></li>
                             </ul>
                         </div>

@@ -1,0 +1,17 @@
+#register{
+    margin-top : 105px;
+
+    img{
+        display: block;
+        margin: auto;
+        margin-bottom : 80px;
+    }
+
+    > div{
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin:auto;
+        padding : 40px 15px 50px 15px
+    }
+}

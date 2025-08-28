@@ -12,15 +12,29 @@
 
     "legalNotice": "Legal notice",
     "termUse": "Terms of use",
-    "privaciyPol": "Legal notice",
+    "privacyPol": "Legal notice",
     "cookie": "Legal notice",
     "footer1": "© 2025 Formula One Season Tracker",
     "footer2": "Developed as part of a DWWM training project by Elise LIAUTAUD",
 
+    "titleSelection": "Select your title",
+    "titleM": "Ms.",
+    "titleF": "Mr.",
+    "titleA": "Other",
+    "username": "Username",
+    "pwconfirm": "Password confirmation",
     "password": "Password",
+
+    "rgpd1": "I agree that I have read and agree to the",
+    "rgpd2": "Terms and Conditions",
+
     "noAcc": "Don't have an account yet?",
     "registerHere": "Register here !",
-    "noSignin" : "Access without signing up",
+
+    "alreadyAcc": "Already have an account ?",
+    "signinHere": "Sign in here !",
+
+    "noSignin" : "Access without signing in",
     "forgottenPassword": "Forgotten Password ?",
 
 

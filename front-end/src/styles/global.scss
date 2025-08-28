@@ -2,10 +2,14 @@
 
 @use './components/accBtns.scss';
 @use './components/translateBtn.scss';
+@use './components/titles.scss';
+@use './components/input.scss';
+@use './components/form.scss';
 
 @use './header.scss';
 @use './footer.scss';
 
+@use './register.scss';
 
 *{
     margin: 0;
@@ -17,6 +21,7 @@
 
 h1, h2{
    font-family: $playfair;
+   font-weight: 400;
 }
 
 #header-up>div, #header-down>div, footer>div{
