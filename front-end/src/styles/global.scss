@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+
+@use './accBtns.scss';
+@use './header.scss';
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.2s ease;
+    font-family: $barlow;
+}
+
+h1, h2{
+   font-family: $playfair;
+}
+
+header>div,  footer{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+}

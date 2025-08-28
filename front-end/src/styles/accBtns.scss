@@ -1,0 +1,12 @@
+@use './variables.scss' as var;
+
+#acc-div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var.$bg-blue;
+    
+    *{
+        color : var.$black;
+    }
+}

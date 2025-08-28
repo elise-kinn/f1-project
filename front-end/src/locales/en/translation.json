@@ -1,0 +1,30 @@
+{
+    "register": "Register",
+    "signin": "Sign In",
+    "login": "Login",
+    
+    "prediction": "Prediction",
+    "results": "Results",
+    "schedule": "Schedule",
+    "calendar": "Calendar",
+    "grid": "Grid",
+    "home": "Home",
+
+    "legalNotice": "Legal notice",
+    "termUse": "Terms of use",
+    "privaciyPol": "Legal notice",
+    "cookie": "Legal notice",
+    "footer1": "© 2025 Formula One Season Tracker",
+    "footer2": "Developed as part of a DWWM training project by Elise LIAUTAUD",
+
+    "password": "Password",
+    "noAcc": "Don't have an account yet?",
+    "registerHere": "Register here !",
+    "noSignin" : "Access without signing up",
+    "forgottenPassword": "Forgotten Password ?",
+
+
+    "hello": "Hello",
+
+    "nextGP": "Next Grand Prix to come"
+}

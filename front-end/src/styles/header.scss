@@ -1,0 +1,21 @@
+@use './variables.scss' as var;
+
+header{
+    #header-up{
+        background-color: var.$bg-header-up;
+        padding : 6px 15px;
+
+        div{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    #header-down{
+        background-color: var.$red;
+
+        img{
+            width:230px
+        }
+    }
+}
