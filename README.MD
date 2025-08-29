@@ -30,7 +30,7 @@ Formula 1 fans, casual or passionate, who are comfortable using modern web inter
 - Node.js / Express
 
 ### Database
-- MySQL
+- MongoDB
 
 ## Project Structure
 
@@ -96,7 +96,7 @@ Fans de Formule 1, réguliers ou occasionnels, à l'aise avec les interfaces web
 - Node.js / Express
 
 # Base de données
-- MySQL
+- MongoDB
 
 ## Architecture du projet
 (*A compléter*)

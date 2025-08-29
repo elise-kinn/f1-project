@@ -12,10 +12,15 @@
 
     "legalNotice": "Mentions légales",
     "termUse": "Conditions d'utilisation",
-    "privaciyPol": "Politique de confidentialité",
+    "privacyPol": "Politique de confidentialité",
     "cookie": "Gestion des cookies",
     "footer1": "© 2025 Formula One Season Tracker",
     "footer2": "Développé dans le cadre d'un projet de formation DWWM par Elise LIAUTAUD",
+
+    "user created": "Votre compte a été crée avec succès !",
+    "exsiting email":"Cette adresse email est déjà utilisée par un autre compte existant.",
+    "exsiting username":"Ce nom d'utilisateur est déjà utilisé par un autre compte existant.",
+    "unmatched pw":"Les champs de mot de passe ne sont pas identiques.",
 
     "titleSelection": "Sélectionnez votre civilité",
     "titleF": "Mme.",

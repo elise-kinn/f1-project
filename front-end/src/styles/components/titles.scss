@@ -1,12 +1,13 @@
 @use '../variables.scss' as var;
 
 #h1-div{
-    width: 700px;
+    max-width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 23px;
     margin: auto;
+    padding : 0 15px 50px 15px; 
 
     h1{
         font-size: 36px;
