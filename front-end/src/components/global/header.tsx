@@ -1,14 +1,20 @@
-import { CgDarkMode } from "react-icons/cg"; //dark mode icon
-import { IoSettingsSharp } from "react-icons/io5"; //settings icon
+// icons
+import { CgDarkMode } from "react-icons/cg"; 
+import { IoSettingsSharp } from "react-icons/io5"; 
+import { FaBars } from "react-icons/fa6";
+import { RxCross2 } from "react-icons/rx";
+
+
 import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next';
+import { useState } from "react";
 
 import AccBtns from "../buttons/accBtns"; // Account buttons
 import TranslateBtn from "../buttons/translateBtn"; // translate btn
+import Nav from "../repeat/nav";
 
 const Header = () => {
-    const { t } = useTranslation();
-
+    const [ open, setOpen ] = useState(false)
+    
     return(
         <header>
             <div id="header-up">
@@ -28,13 +34,9 @@ const Header = () => {
                 <div>
                     <Link to='/'><img src="/src/assets/logos/png/logo_white.png" alt="logo" /></Link>
                     <nav>
-                        <ul>
-                            <li><Link to=''>{t('prediction')}</Link></li>
-                            <li><Link to=''>{t('results')}</Link></li>
-                            <li><Link to=''>{t('schedule')}</Link></li>
-                            <li><Link to=''>{t('grid')}</Link></li>
-                            <li><Link to=''>{t('home')}</Link></li>
-                        </ul>
+                        <Nav id="desktop"/>
+                        {open && <Nav id="mobile"/>}
+                        <button onClick={ () => setOpen(!open)}>{open ? <RxCross2 /> : <FaBars />}</button>
                     </nav>
                 </div>
             </div>

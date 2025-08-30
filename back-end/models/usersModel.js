@@ -6,7 +6,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
-        maxlength: 100
+        maxlength: 20, 
+        minlenght: 3
     },
     email: {
         type: String,
@@ -33,14 +34,15 @@ const userSchema = new mongoose.Schema({
 })
 
 // middleware hash password
-userSchema.pre('save', async function (next) {
-    if(!this.isModified('password')) return next()
-    
+userSchema.pre('save', async function (next){ // pre() --> s'exécute automatiquement avant que l'utilisateur soit enregistré dans la BDD
+    if(!this.isModified('password')) return next() // Vérification si le mot de passe a été modifié., évite de hasher un mot de passe déjà haché. si non modifié --> next()
+
     try {
-        const salt = await bcrypt.genSalt(parseInt(12))
-        this.password = await bcrypt.hash(this.password, salt)
+        const salt = await bcrypt.genSalt(12) // génération d'un sel cryptographique avec complexité de 12
+        this.password = await bcrypt.hash(this.password, salt) // hashage en utilisant le sel + remplacement du mot de passe
+        next() // Traitement fini
     } catch (error) {
-        next(err)
+        next(err) //Si erreur, transmission de l'erreur
     }
 })
 

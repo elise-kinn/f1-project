@@ -84,19 +84,19 @@ const Register =  () => {
                         <option value="3">{t('titleA')}</option>
                     </select> */}
                     <label className='visually-hidden' htmlFor="username-input">{t('username')}</label>
-                    <input id="username-input" type="text" placeholder={t('username')} name="username" value={formData.username} onChange={handleChange}/>
+                    <input id="username-input" type="text" placeholder={t('username')} name="username" value={formData.username} onChange={handleChange} />
 
                     <label className='visually-hidden' htmlFor="email-input">Email</label>
-                    <input id="email-input" type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange}/>
+                    <input id="email-input" type="email" placeholder="Email" name="email" value={formData.email} onChange={handleChange} />
 
                     <label className='visually-hidden' htmlFor="pw-input">{t('password')}</label>
-                    <input id="pw-input" type="password" placeholder={t('password')} name="password" value={formData.password} onChange={handleChange}/>
+                    <input id="pw-input" type="password" placeholder={t('password')} name="password" value={formData.password} onChange={handleChange} />
 
                     <label className='visually-hidden' htmlFor="pw2-input">{t('pwconfirm')}</label>
-                    <input id="pw2-input" type="password" placeholder={t('pwconfirm')} name="password2" value={formData.password2} onChange={handleChange}/>
+                    <input id="pw2-input" type="password" placeholder={t('pwconfirm')} name="password2" value={formData.password2} onChange={handleChange} />
 
                     <div id="rgpd-div">
-                        <input id="rgpd-input" type="checkbox" onChange={handleChange}/>
+                        <input id="rgpd-input" type="checkbox" onChange={handleChange} name="rgpd"/>
                         <label htmlFor="rgpd-input">{t('rgpd1')} <Link to=''>{t('rgpd2')}</Link></label>                        
                     </div>
 

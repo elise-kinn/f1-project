@@ -18,12 +18,14 @@ footer{
             display: flex;
             flex-direction: column;
             align-items: end;
-            gap:9px;
+            gap:15px;
             padding-bottom : 15px;
 
             >div ul{
                 display: flex;
                 gap: 15px;
+                flex-wrap: wrap;
+                justify-content: end;
 
                 li{
                     text-indent: 0;
@@ -52,5 +54,39 @@ footer{
             padding-top:9px;
         }
 
+    }
+}
+
+@media screen and ( max-width: 740px) {
+    footer > div{
+        flex-direction: column;
+        gap: 40px;
+        padding:20px 15px !important;
+
+        *{
+            border: none !important;
+            font-size: 14px;
+
+        }
+
+        nav{
+            align-items:baseline;
+            flex-direction: row;
+            border-bottom: 1px solid var.$white !important;
+            padding-bottom: 43px !important;
+            margin-bottom: 32px;
+            justify-content: space-around;
+
+
+            ul{
+                flex-direction: column;
+                padding: 0;
+                list-style-type: none;
+            }
+        }
+
+        p{
+            text-align: center;
+        }
     }
 }

@@ -18,9 +18,11 @@
     "footer2": "Développé dans le cadre d'un projet de formation DWWM par Elise LIAUTAUD",
 
     "user created": "Votre compte a été crée avec succès !",
-    "exsiting email":"Cette adresse email est déjà utilisée par un autre compte existant.",
-    "exsiting username":"Ce nom d'utilisateur est déjà utilisé par un autre compte existant.",
+    "existing email":"Cette adresse email est déjà utilisée par un autre compte existant.",
+    "existing username":"Ce nom d'utilisateur est déjà utilisé par un autre compte existant.",
     "unmatched pw":"Les champs de mot de passe ne sont pas identiques.",
+    "empty field": "Tous les champs sont obligatoires.",
+    "empty rgpd": "Veuillez accepter les conditions générales d'utilisation.",
 
     "titleSelection": "Sélectionnez votre civilité",
     "titleF": "Mme.",

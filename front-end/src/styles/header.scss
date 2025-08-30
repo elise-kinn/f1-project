@@ -30,26 +30,104 @@ header{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 6px 15px;
+            padding: 15px;
 
             img{
-                width:230px
+                width:150px
             }
     
-            nav ul{
+            nav{
                 display: flex;
                 align-items: center;
-                gap: 34px;
 
-                a{
-                    color : var.$white;
+                #acc-div{
+                    display: none;
+                }
 
-                    &:hover{
-                        color : var.$black;
+                button{
+                    background-color: #ffffff00;
+                    border: none;
+                }
+
+                svg{
+                    font-size: 22px;
+                    color: var.$white;
+                    display: none;
+                }
+                
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 34px;
+                    
+                    a{
+                        color : var.$white;
+                        
+                        &:hover{
+                            color : var.$black;
+                        }
                     }
                 }
+            }    
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header-down
+
+    nav {
+        #desktop{
+            display: none !important;
+        }
+
+        #mobile{
+            flex-direction: column;
+            position: absolute;
+            top: 137px;
+            right: 12px;
+            background-color: var.$red;
+            border-radius: 19px 0 25px 0;
+            padding : 25px;
+            box-shadow : 0px 0px 23px -3px #4b0000 ;
+            gap: 21px
+        }
+
+        svg{
+            display: flex !important;
+        }
+    }
+
+}
+@media screen and (max-width: 500px){
+    #header-up{
+        #acc-div{
+            display: none;
+        }
+    }
+
+    #header-down nav{
+        #acc-div{
+            display: flex !important;
+            flex-direction: column;
+            gap: 7px;
+
+            a:first-of-type{
+                border-bottom: 1px solid var.$black;
+                padding-bottom : 11px
             }
 
+            p{
+                display: none;
+            }
+
+            *{
+                color : var.$black !important;
+
+                &:hover{
+                     color : var.$red !important;
+                }
+            }
         }
     }
 }
